@@ -1,0 +1,90 @@
+/* Variables */
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --off-black: hsl(0, 0%, 8%);
+}
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  font-family: Inter, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  background: var(--off-black);
+  color: var(--white);
+}
+
+.card {
+  width: min(100%, 384px);
+  padding: 4rem;
+  text-align: center;
+  background: var(--dark-grey);
+  border-radius: 1.3rem;
+}
+
+.avatar {
+  width: 87px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.name {
+  margin-top: 2.5rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.location {
+  margin-top: 0.9rem;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--green);
+}
+
+.bio {
+  margin-top: 2.8rem;
+}
+
+.links {
+  margin-top: 2.6rem;
+  padding: 0;
+  list-style: none;
+}
+.links li:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  line-height: 4.6rem;
+  font-weight: 700;
+  background: var(--grey);
+  color: inherit;
+  border-radius: 0.8rem;
+  transition: all 0.3s ease;
+}
+.link:hover {
+  background: var(--green);
+  color: var(--off-black);
+}
