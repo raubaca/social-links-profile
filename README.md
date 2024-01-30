@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/social-links-profile-css-grid-css-variables-XGEt2_hBTy)
 - Live Site URL: [GitHub Pages](https://raubaca.github.io/social-links-profile/)
 
 ## My process
